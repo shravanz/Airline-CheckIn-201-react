@@ -1,5 +1,5 @@
 1.This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-and Json server for fast backend prototyping.
+with Json server for fast backend prototyping.
 
 2.Tested with Chrome browser
 
