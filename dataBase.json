@@ -1,0 +1,716 @@
+{
+  "loginModule": [
+    {
+      "id": 1,
+      "firstName": "Shravan",
+      "lastName": "Zolgiker",
+      "phone": "8951407093",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "firstName": "Ravi",
+      "lastName": "Prasad",
+      "phone": "8951407093",
+      "email": "staff@gmail.com",
+      "password": "staff",
+      "role": "staff"
+    },
+    {
+      "id": 3,
+      "firstName": "Anju",
+      "lastName": "A",
+      "phone": "8050774633",
+      "email": "staff1@gmail.com",
+      "password": "staff1",
+      "role": "staff"
+    }
+  ],
+  "flightListData": [
+    {
+      "id": "1",
+      "flightNo": "1011",
+      "airline": "IndiGo",
+      "departureStation": "BLR",
+      "arrivalStation": "HYD",
+      "departureDate": "2019-12-27T22:30:00",
+      "arrivalDate": "2019-12-27T23:30:00",
+      "special_meals": [
+        "Veg-special",
+        "Biryanis",
+        "Apple",
+        "sad"
+      ],
+      "ancillary": [
+        "vouchers",
+        "Tv",
+        "merchandise"
+      ]
+    },
+    {
+      "id": "2",
+      "flightNo": "1021",
+      "airline": "SpiceJet",
+      "departureStation": "CHE",
+      "arrivalStation": "MUM",
+      "departureDate": "2019-12-28T21:30:00",
+      "arrivalDate": "2019-12-28T23:30:00",
+      "special_meals": [
+        "Non-veg-meal",
+        "Maggie",
+        "coffee"
+      ],
+      "ancillary": [
+        "Movie",
+        "Student Discount"
+      ]
+    },
+    {
+      "id": "3",
+      "flightNo": "1031",
+      "airline": "AirIndia",
+      "departureStation": "HYD",
+      "arrivalStation": "DEL",
+      "departureDate": "2019-12-29T22:40:00",
+      "arrivalDate": "2019-12-29T23:30:00",
+      "special_meals": [
+        "Dessert",
+        "North-Special",
+        "Alcohol"
+      ],
+      "ancillary": [
+        "merchandise",
+        "BaggageAllowance"
+      ]
+    }
+  ],
+  "PassengerDetailData": [
+    {
+      "id": 1,
+      "first_name": "Bhaskar",
+      "last_name": "Zolgiker",
+      "date_of_birth": "4-Aug-1977",
+      "gender": "Male",
+      "address": "Bidar",
+      "mobile_no": 8951407093,
+      "seat_no": "C1",
+      "passport": "PASS10000",
+      "wheelChair": "Yes",
+      "infant": "No",
+      "status": "AC",
+      "flight_id": "1",
+      "special_meals": [
+        "Veg-special",
+        "Biryanis"
+      ],
+      "ancillary": [
+        "vouchers"
+      ]
+    },
+    {
+      "id": 2,
+      "first_name": "Ajit",
+      "last_name": "joshi",
+      "date_of_birth": "4-Aug-1987",
+      "gender": "Male",
+      "address": "Bidar",
+      "mobile_no": 8951407093,
+      "seat_no": "D2",
+      "passport": "PASS10001",
+      "wheelChair": "No",
+      "infant": "No",
+      "status": "AC",
+      "flight_id": "1",
+      "special_meals": [
+        "Biryanis"
+      ],
+      "ancillary": [
+        "vouchers"
+      ]
+    },
+    {
+      "id": 3,
+      "first_name": "DIVYA",
+      "last_name": "CHOUDHARY",
+      "date_of_birth": "12-Jan-1990",
+      "gender": "Female",
+      "address": "delhi",
+      "mobile_no": 6789876545,
+      "seat_no": "D9",
+      "passport": "PASS10002",
+      "wheelChair": "No",
+      "infant": "No",
+      "status": "AC",
+      "flight_id": "3",
+      "special_meals": [
+        "Dessert"
+      ],
+      "ancillary": [
+        "merchandise"
+      ]
+    },
+    {
+      "id": 4,
+      "first_name": "Shubham",
+      "last_name": "Shivhare",
+      "date_of_birth": "3-Aug-1997",
+      "gender": "Male",
+      "address": "bopal",
+      "mobile_no": 9898767854,
+      "seat_no": "B6",
+      "passport": "PASS10003",
+      "wheelChair": "No",
+      "infant": "No",
+      "status": "AC",
+      "flight_id": "1",
+      "special_meals": [
+        "veg-special",
+        "Coffee"
+      ],
+      "ancillary": [
+        "Tv"
+      ]
+    },
+    {
+      "id": 5,
+      "first_name": "AJAY",
+      "last_name": "DEVGAN",
+      "date_of_birth": "20-May-1984",
+      "gender": "Male",
+      "address": "Mumbai",
+      "mobile_no": 8768978654,
+      "seat_no": "",
+      "passport": "",
+      "wheelChair": "No",
+      "infant": "No",
+      "status": "NC",
+      "flight_id": "2",
+      "special_meals": [],
+      "ancillary": []
+    },
+    {
+      "id": 6,
+      "first_name": "ANAND",
+      "last_name": "PRAKASH",
+      "date_of_birth": "12-Jan-1990",
+      "gender": "Male",
+      "address": "gulbarga",
+      "mobile_no": 6789876545,
+      "seat_no": "B2",
+      "passport": "",
+      "wheelChair": "No",
+      "infant": "No",
+      "status": "AC",
+      "flight_id": "3",
+      "special_meals": [
+        "Dessert"
+      ],
+      "ancillary": [
+        "BaggageAllowance"
+      ]
+    },
+    {
+      "id": 7,
+      "first_name": "OM",
+      "last_name": "PRAKASH",
+      "date_of_birth": "3-Aug-1967",
+      "gender": "Male",
+      "address": "lucknow",
+      "mobile_no": 9898767854,
+      "seat_no": "E3",
+      "passport": "PASS10004",
+      "wheelChair": "Yes",
+      "infant": "No",
+      "status": "AC",
+      "flight_id": "1",
+      "special_meals": [
+        "Biryanis"
+      ],
+      "ancillary": [
+        "merchandise",
+        "vouchers"
+      ]
+    },
+    {
+      "id": 8,
+      "first_name": "MOHAN",
+      "last_name": "KUMAR",
+      "date_of_birth": "20-May-1984",
+      "gender": "Male",
+      "address": "",
+      "mobile_no": 8768978654,
+      "seat_no": "",
+      "passport": "",
+      "wheelChair": "No",
+      "infant": "No",
+      "status": "NC",
+      "flight_id": "2",
+      "special_meals": [],
+      "ancillary": []
+    },
+    {
+      "id": 9,
+      "first_name": "SACHIN",
+      "last_name": "Tendulkar",
+      "date_of_birth": "12-Jan-1990",
+      "gender": "Male",
+      "address": "Mumbai",
+      "mobile_no": 6789876545,
+      "seat_no": "",
+      "passport": "",
+      "wheelChair": "No",
+      "infant": "No",
+      "status": "NC",
+      "flight_id": "3",
+      "special_meals": [
+        "Alcohol"
+      ],
+      "ancillary": [
+        "BaggageAllowance"
+      ]
+    },
+    {
+      "id": 10,
+      "first_name": "RAVI",
+      "last_name": "RAJ",
+      "date_of_birth": "3-Aug-1967",
+      "gender": "Male",
+      "address": "Gulbarga",
+      "mobile_no": 9898767854,
+      "seat_no": "E6",
+      "passport": "PASS10005",
+      "wheelChair": "Yes",
+      "infant": "Yes",
+      "status": "AC",
+      "flight_id": "1",
+      "special_meals": [
+        "Biryanis"
+      ],
+      "ancillary": [
+        "vouchers",
+        "Tv"
+      ]
+    },
+    {
+      "id": 11,
+      "first_name": "SUMEET",
+      "last_name": "SARGAM",
+      "date_of_birth": "20-May-1984",
+      "gender": "Male",
+      "address": "New Delhi",
+      "mobile_no": 8768978654,
+      "seat_no": "",
+      "passport": "",
+      "wheelChair": "No",
+      "infant": "No",
+      "status": "NC",
+      "flight_id": "2",
+      "special_meals": [],
+      "ancillary": []
+    },
+    {
+      "id": 12,
+      "first_name": "AYUSH",
+      "last_name": "KUMAR",
+      "date_of_birth": "12-Jan-1990",
+      "gender": "Male",
+      "address": "Hyderabad",
+      "mobile_no": 6789876545,
+      "seat_no": "C2",
+      "passport": "PASS10006",
+      "wheelChair": "Yes",
+      "infant": "No",
+      "status": "AC",
+      "flight_id": "1",
+      "special_meals": [
+        "Veg-special"
+      ],
+      "ancillary": [
+        "Tv"
+      ]
+    },
+    {
+      "id": 13,
+      "first_name": "PREM",
+      "last_name": "NATH",
+      "date_of_birth": "3-Aug-1997",
+      "gender": "Male",
+      "address": "Bangalore",
+      "mobile_no": 9898767854,
+      "seat_no": "C4",
+      "passport": "PASS10007",
+      "wheelChair": "Yes",
+      "infant": "Yes",
+      "status": "AC",
+      "flight_id": "2",
+      "special_meals": [
+        "Maggie",
+        "Coffee"
+      ],
+      "ancillary": [
+        "Movie",
+        "Student Discount"
+      ]
+    },
+    {
+      "id": 14,
+      "first_name": "BALA",
+      "last_name": "SWAMI",
+      "date_of_birth": "20-May-1984",
+      "gender": "Male",
+      "address": "chennai",
+      "mobile_no": 8768978654,
+      "seat_no": "A4",
+      "passport": "PASS10008",
+      "wheelChair": "No",
+      "infant": "Yes",
+      "status": "AC",
+      "flight_id": "1",
+      "special_meals": [],
+      "ancillary": [
+        "Tv"
+      ]
+    },
+    {
+      "id": 15,
+      "first_name": "VIRAT",
+      "last_name": "KOHLI",
+      "date_of_birth": "12-Jan-1990",
+      "gender": "Male",
+      "address": "DELHI",
+      "mobile_no": 6789876545,
+      "seat_no": "",
+      "passport": "",
+      "wheelChair": "No",
+      "infant": "No",
+      "status": "NC",
+      "flight_id": "3",
+      "special_meals": [
+        "Alcohol"
+      ],
+      "ancillary": [
+        "BaggageAllowance"
+      ]
+    },
+    {
+      "id": 16,
+      "first_name": "MURARI",
+      "last_name": "LAL",
+      "date_of_birth": "3-Aug-1997",
+      "gender": "Male",
+      "address": "BOMNAHALLI",
+      "mobile_no": 9898767854,
+      "seat_no": "B1",
+      "passport": "PASS10009",
+      "wheelChair": "Yes",
+      "infant": "Yes",
+      "status": "AC",
+      "flight_id": "1",
+      "special_meals": [
+        "veg-special",
+        "Biryanis"
+      ],
+      "ancillary": [
+        "Tv"
+      ]
+    },
+    {
+      "id": 17,
+      "first_name": "SUNNY",
+      "last_name": "KUMAR",
+      "date_of_birth": "20-May-1984",
+      "gender": "Male",
+      "address": "Pune",
+      "mobile_no": 8768978654,
+      "seat_no": "B1",
+      "passport": "PASS10010",
+      "wheelChair": "No",
+      "infant": "No",
+      "status": "AC",
+      "flight_id": "2",
+      "special_meals": [
+        "Non-veg-meal"
+      ],
+      "ancillary": [
+        "Movie"
+      ]
+    },
+    {
+      "id": 18,
+      "first_name": "AAKASH",
+      "last_name": "NANDA",
+      "date_of_birth": "12-Jan-1990",
+      "gender": "Male",
+      "address": "Vadodra",
+      "mobile_no": 6789876545,
+      "seat_no": "B3",
+      "passport": "PASS10011",
+      "wheelChair": "No",
+      "infant": "No",
+      "status": "AC",
+      "flight_id": "3",
+      "special_meals": [
+        "North-Special"
+      ],
+      "ancillary": [
+        "BaggageAllowance"
+      ]
+    },
+    {
+      "first_name": "megha",
+      "last_name": "Prakash",
+      "mobile_no": "8961218983",
+      "address": "chennai",
+      "gender": "Female",
+      "infant": "Yes",
+      "wheelChair": "No",
+      "flight_id": "2",
+      "status": "NC",
+      "seat_no": "",
+      "passport": "PASS10012",
+      "date_of_birth": "",
+      "id": 24,
+      "special_meals": [
+        "Coffee"
+      ],
+      "ancillary": [
+        "Movie"
+      ]
+    },
+    {
+      "first_name": "Ram",
+      "last_name": "Kumar",
+      "mobile_no": "9090090990",
+      "address": "Bidar",
+      "gender": "Male",
+      "infant": "No",
+      "wheelChair": "No",
+      "flight_id": "1",
+      "status": "AC",
+      "seat_no": "B4",
+      "passport": "PASS10013",
+      "date_of_birth": "13-feb-1998",
+      "id": 25,
+      "special_meals": [
+        "veg-special"
+      ],
+      "ancillary": [
+        "merchandise",
+        "vouchers"
+      ]
+    },
+    {
+      "first_name": "Shyam",
+      "last_name": "Kumar",
+      "mobile_no": "9098238328",
+      "address": "Bangalore",
+      "gender": "Male",
+      "infant": "Yes",
+      "wheelChair": "No",
+      "flight_id": "1",
+      "status": "AC",
+      "seat_no": "B7",
+      "passport": "PASS10014",
+      "date_of_birth": "27-oct-2000",
+      "id": 26,
+      "special_meals": [
+        "veg-special"
+      ],
+      "ancillary": [
+        "Tv"
+      ]
+    },
+    {
+      "first_name": "TONY",
+      "last_name": "STARK",
+      "mobile_no": "9384923849",
+      "address": "Bangalore",
+      "gender": "Male",
+      "infant": "No",
+      "wheelChair": "No",
+      "flight_id": "1",
+      "status": "AC",
+      "seat_no": "C4",
+      "passport": "",
+      "date_of_birth": "",
+      "id": 27,
+      "special_meals": [],
+      "ancillary": []
+    },
+    {
+      "first_name": "James",
+      "last_name": "Bond",
+      "mobile_no": "007",
+      "address": "UK",
+      "gender": "Male",
+      "infant": "No",
+      "wheelChair": "Yes",
+      "flight_id": "1",
+      "status": "AC",
+      "seat_no": "C7",
+      "passport": "",
+      "date_of_birth": "",
+      "id": 28,
+      "special_meals": [],
+      "ancillary": []
+    },
+    {
+      "first_name": "GOWDA",
+      "last_name": "Kumar",
+      "mobile_no": "",
+      "address": "Mandya",
+      "gender": "Male",
+      "infant": "Yes",
+      "wheelChair": "No",
+      "flight_id": "1",
+      "status": "NC",
+      "seat_no": "",
+      "passport": "",
+      "date_of_birth": "",
+      "id": 29,
+      "special_meals": [],
+      "ancillary": []
+    },
+    {
+      "first_name": "RANJU",
+      "last_name": "KUMARI",
+      "mobile_no": "9898989898",
+      "address": "delhi",
+      "gender": "Female",
+      "infant": "No",
+      "wheelChair": "No",
+      "flight_id": "3",
+      "status": "NC",
+      "seat_no": "",
+      "passport": "",
+      "date_of_birth": "",
+      "id": 30,
+      "special_meals": [
+        "Alcohol"
+      ],
+      "ancillary": []
+    },
+    {
+      "first_name": "Sanu",
+      "last_name": "Kumar",
+      "mobile_no": "8961221712",
+      "address": "lucknow",
+      "gender": "Male",
+      "infant": "Yes",
+      "wheelChair": "No",
+      "flight_id": "1",
+      "status": "AC",
+      "seat_no": "E1",
+      "passport": "",
+      "date_of_birth": "06-jun-1976",
+      "id": 31,
+      "special_meals": [],
+      "ancillary": []
+    },
+    {
+      "first_name": "ANISH",
+      "last_name": "KUMAR",
+      "mobile_no": "7383838383",
+      "address": "Bangalore",
+      "gender": "Male",
+      "infant": "Yes",
+      "wheelChair": "Yes",
+      "flight_id": "1",
+      "status": "NC",
+      "seat_no": "",
+      "passport": "",
+      "date_of_birth": "",
+      "id": 32,
+      "special_meals": [],
+      "ancillary": []
+    },
+    {
+      "first_name": "Ravi",
+      "last_name": "teja",
+      "mobile_no": "4334353534",
+      "address": "Hydrabad",
+      "gender": "Male",
+      "infant": "Yes",
+      "wheelChair": "No",
+      "flight_id": "1",
+      "status": "NC",
+      "seat_no": "",
+      "passport": "",
+      "date_of_birth": "23-Dec-1996",
+      "id": 33,
+      "special_meals": [],
+      "ancillary": []
+    },
+    {
+      "first_name": "Sunny",
+      "last_name": "Narayana",
+      "mobile_no": "8989898989",
+      "gender": "Male",
+      "infant": "Yes",
+      "wheelChair": "Yes",
+      "flight_id": "2",
+      "status": "NC",
+      "seat_no": "",
+      "country": "",
+      "date_of_birth": "24-Dec-1999",
+      "passport": "PASS10067",
+      "address": "tumkur",
+      "id": 34,
+      "special_meals": [],
+      "ancillary": []
+    },
+    {
+      "first_name": "Ram",
+      "last_name": "lakan",
+      "mobile_no": "5454545545",
+      "gender": "Male",
+      "infant": "No",
+      "wheelChair": "No",
+      "flight_id": "3",
+      "status": "NC",
+      "seat_no": "",
+      "date_of_birth": "03-Nov-1997",
+      "passport": "PASS10087",
+      "address": "mandya",
+      "id": 35,
+      "special_meals": [],
+      "ancillary": []
+    },
+    {
+      "first_name": "SUMAN",
+      "last_name": "KUMARI",
+      "mobile_no": "9898988989",
+      "gender": "Female",
+      "infant": "No",
+      "wheelChair": "No",
+      "flight_id": "1",
+      "status": "NC",
+      "seat_no": "",
+      "date_of_birth": "",
+      "passport": "",
+      "address": "",
+      "id": 36,
+      "special_meals": [],
+      "ancillary": []
+    },
+    {
+      "first_name": "somu",
+      "last_name": "Shankar",
+      "mobile_no": "3434343434",
+      "gender": "Male",
+      "infant": "No",
+      "wheelChair": "No",
+      "flight_id": "1",
+      "status": "NC",
+      "seat_no": "",
+      "date_of_birth": "27-Nov-1995",
+      "passport": "",
+      "address": "",
+      "id": 37,
+      "special_meals": [],
+      "ancillary": []
+    }
+  ]
+}

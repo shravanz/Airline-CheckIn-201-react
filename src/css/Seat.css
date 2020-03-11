@@ -1,37 +1,38 @@
 .Seat {
-    background: #fff;
-    border: 1px solid #999;
-    margin : 2px;
-    float: right;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 34px;
-    text-align: center;
-    width: 34px;
-    opacity: 0.6;
-    cursor: no-drop;
-  }
+  background: #fff;
+  border: 2px solid rgb(34, 34, 34);
+  margin: 2px;
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  text-align: center;
+  width: 34px;
+  opacity: 0.6;
+  cursor: no-drop;
+  border-radius: 15px 15px 5px 5px;
+}
 
-  .SeatCode {
-    background: #fff;
-    margin : 2px;
-    border: 1px solid #999;
-    height: 15px;
-    opacity: 0.6;
-  }
+.SeatCode {
+  background: #fff;
+  margin: 2px;
+  border: 1px solid #999;
+  height: 15px;
+  opacity: 0.6;
+}
 
-  .BookedSeat {
-    background: rgb(114, 62, 62);
-    border: 1px solid #999;
-    margin : 2px;
-    float: right;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 34px;
-    text-align: center;
-    width: 34px;
-    opacity: 0.6;
-    cursor: not-allowed;
-  }
+.BookedSeat {
+  background: rgb(114, 62, 62);
+  border: 1px solid #999;
+  margin: 2px;
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  text-align: center;
+  width: 34px;
+  opacity: 0.6;
+  cursor: not-allowed;
+}

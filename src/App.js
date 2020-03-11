@@ -1,12 +1,9 @@
-import React from 'react';
-import './App.css';
-import Root from './routes/Root'
-
+import React from "react";
+import "./App.css";
+import Main from "./routes/Main";
 
 function App() {
-  return (
- <Root/>
-  );
+  return <Main />;
 }
 
 export default App;
